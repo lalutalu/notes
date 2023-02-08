@@ -1,7 +1,7 @@
 # Programmation Orientée Objet
 
 # TODOS
-- [ ] Finish last question in exercises 📅 2023-02-09 
+- [ ] Finish last question in exercises 📅 2023-02-09
 
 # Week 1: Static data structures
 
