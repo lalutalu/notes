@@ -1,5 +1,6 @@
 # TODOS
 - [ ] Review PowerPoint of different diagrams 📅 2023-02-08 
+- [ ] Modelisation HW 📅 2023-02-10 
 
 **EVERYTHING IS ON TEAMS**
 # Week 1:
@@ -62,4 +63,8 @@ Attributes are private, properties are public.
 
 public internal is only public in said project, not to other **External Classes**
 
-Writing is ok
+Rreference class in enumeration
+
+Methods Majuscule
+
+![UML de la classe chat](./img/dev_inf_uml_example_of_class.PNG)
