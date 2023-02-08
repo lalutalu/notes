@@ -53,4 +53,7 @@ Three Main Points:
 ### UML Alternatives
 - **Buisness Process Model and Notation(BPMN)**: used for buisness. Similar to UML and all can understand aswell.
 - Other alternatives exist but they are all simliar.
+
+
+### Communication Diagrams (Collaboration)
 - 
