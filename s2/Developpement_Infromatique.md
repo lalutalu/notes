@@ -56,4 +56,10 @@ Three Main Points:
 
 ## Diagrams
 
-Does it work? It depends on the reason one chose 
+Does it work? It depends on the reason one chose.
+
+Attributes are private, properties are public.
+
+public internal is only public in said project, not to other **External Classes**
+
+Writing is ok
