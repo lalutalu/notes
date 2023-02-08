@@ -52,4 +52,4 @@ Three Main Points:
 - Simple, concise, and non-tech savvy Analyste d'affaire can the rest can clearly understand what needs to be done.
 ### UML Alternatives
 - **Buisness Process Model and Notation(BPMN)**: used for buisness. Similar to UML and all can understand aswell.
-	- Other alternatives exist but they are all simliar.
+- Other alternatives exist but they are all simliar.
