@@ -1,5 +1,5 @@
 # TODOS
-- [ ] Install Visual Paradigm(Link in TEAMS)
+- [ ] Review PowerPoint of different diagrams 📅 2023-02-08 
 
 **EVERYTHING IS ON TEAMS**
 # Week 1:
@@ -54,6 +54,6 @@ Three Main Points:
 - **Buisness Process Model and Notation(BPMN)**: used for buisness. Similar to UML and all can understand aswell.
 - Other alternatives exist but they are all simliar.
 
+## Diagrams
 
-### Communication Diagrams (Collaboration)
-- 
+Does it work? It depends on the reason one chose 
