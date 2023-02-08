@@ -1,6 +1,6 @@
 # TODOS
-- [ ] Review PowerPoint of different diagrams 📅 2023-02-08 
-- [ ] Modelisation HW 📅 2023-02-10 
+- [ ] Review PowerPoint of different diagrams 📅 2023-02-05
+- [ ] Modelisation HW 📅 2023-02-15
 
 **EVERYTHING IS ON TEAMS**
 # Week 1:
