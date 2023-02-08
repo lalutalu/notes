@@ -39,7 +39,7 @@ Three Main Points:
 - Client has demands and *Architecte d'Affaires* thinks of big picture: I.E not which technologies are used.
 - *Analyste D'Affaire* each works on its own department. For example, one works for the payment system. The other works on the security does not work on the technical side.
 
-![Department under Architecte d'affaires](./img/dev_inf_department.png)
+![Department under Architecte d'affaires](./img/dev_inf_department.PNG)
 - Architecte Fonctionnelle is the bridge between developpers and Non-Tech Savvy *Analyste d'affaires.
 - Application Speed: 2 factors, *Base de données* and *applicative solution*.
 - **DBA: DataBase Administrator**: works with dev to verify the database can be properly used and integrated into application. Not able to code but be able to understand the programming. Has worked with different database systems.
