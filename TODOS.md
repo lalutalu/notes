@@ -1,7 +1,18 @@
 ## General
 
 ~~~ dataview
-Task from  "s2" where !completed group by file.link
+Task from #dev where !completed group by date
+Task from #web where !completed group by date
+Task from #bd  where !completed group by date
+~~~
+~~~dataview
+
+~~~
+~~~dataview
+Task from #web where !completed group by date
+~~~
+~~~dataview
+Task from #oop where !completed group by date
 ~~~
 
 ## EXAMS
