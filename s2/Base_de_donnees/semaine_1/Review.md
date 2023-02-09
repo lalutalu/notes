@@ -1,8 +1,8 @@
 # Review
 
 ## TODO
-- [ ] #bd Finish Review and Laboratories 
-
+- [x] #bd Finish Review and Laboratories
+	
 - Sequence creation which allows for **Unique Identifiers**.
 
 ~~~ SQL
