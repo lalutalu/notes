@@ -19,3 +19,4 @@ Console.WriteLine($"Le nombre maximal dans le tableau est: {arrayUserInput.Max()
 Console.WriteLine("Le nombre maximal dans le tableau est: " + arrayUserInput.Max());
 ~~~
 
+**Name Variables Correctly** and remove comments.
