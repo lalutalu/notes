@@ -1,6 +1,6 @@
 # TODOS
-- [ ] #oop take notes for first and second week due 📅 2023-02-13
-- [ ] #oop Finish other questions 📅 2023-02-13
+- [x] #oop take notes for first and second week due 📅 2023-02-13
+
 
 # Unidimensional Tables
 - Les tableaux sont des structures de données permettant de stocker plusieurs variables de même type. 
@@ -109,6 +109,7 @@ array[1] = 4;
 
 array[3] = 8;
 ~~~
+
 ### Parcourir les éléments d’un tableau
 
 Il existe plusieurs façons de parcourir les éléments d’un tableau. Les deux approches les plus courantes sont :
@@ -118,37 +119,36 @@ Il existe plusieurs façons de parcourir les éléments d’un tableau. Les deux
 
 La boucle for permet de parcourir les éléments d’un tableau en spécifiant la taille du tableau et en utilisant l'index pour accéder aux éléments un par un. Exemple :
 
-_**string[] weekDays = { "Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat" };**_
+~~~c#
+string[] weekDays = { "Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat" };
 
-_**//Lecture des éléments du tableau avec for**_
+//Lecture des éléments du tableau avec for
 
-_**for(int i = 0; i< weekDays.Length; i++)**_
+for(int i = 0; i< weekDays.Length; i++)
 
-_**{**_
+{
 
-    _**Console.WriteLine(weekDays[i]);**_
-
-_**}**_
+    Console.WriteLine(weekDays[i]);
+}
 
 La propriété **Length** permet d’obtenir la taille du tableau.
 
 La boucle foreach est la façon la plus simple de parcourir les éléments d’un tableau. Foreach permet d’accéder aux éléments sans avoir à utiliser leur index. Exemple :
 
-**_string[] weekDays = { "Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat" };_**
+string[] weekDays = { "Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat" };
 
-**_//Lecture des éléments du tableau avec foreach_**
+//Lecture des éléments du tableau avec foreach_**
 
-**_foreach(string day in weekDays)_**
+foreach(string day in weekDays)
 
-**_{_**
+{
 
-    **_Console.WriteLine(day);_**
+    Console.WriteLine(day);
 
-**_}_**
+}
+~~~
 
 ### Quelques méthodes courantes utilisées pour manipuler les tableaux
-
-  
 
 Tous les tableaux en C# sont dérivés de la classe abstraite **System.Array** et offrent les méthodes/propriétés suivantes :
 
@@ -207,54 +207,155 @@ Convertit le tableau en chaine de caractères
   
 
 ### Exemples
+~~~c#
+//Obtenir la plus grande valeur du tableau
 
-**_//Obtenir la plus grande valeur du tableau_**
+int max = array.Max();
 
-**_int max = array.Max();_**
+Console.WriteLine($"La plus grande valeur du tableau est : {max}");_
 
-**_Console.WriteLine($"La plus grande valeur du tableau est : {max}");_**
+//max==9_**
 
-**_//max==9_**
+//Obtenir la moyenne du tableau
 
-**_//Obtenir la moyenne du tableau_**
+double average = array.Average();
 
-**_double average = array.Average();_**
+Console.WriteLine($"La moyenne du tableau est : {average}");
 
-**_Console.WriteLine($"La moyenne du tableau est : {average}");_**
+//average==5_**
 
-**_//average==5_**
+//Obtenir la somme des éléments du tableau
 
-**_//Obtenir la somme des éléments du tableau_**
+int sum = array.Sum();
 
-**_int sum = array.Sum();_**
+Console.WriteLine($"La somme des éléments du tableau est : {sum}");
 
-**_Console.WriteLine($"La somme des éléments du tableau est : {sum}");_**
+//sum==25
 
-**_//sum==25_**
+//Tri du tableau
 
-**_//Tri du tableau_**
+Array.Sort(array);
 
-**_Array.Sort(array);_**
+//array=={1,3,5,7,9}
 
-**_//array=={1,3,5,7,9}_**
+//Inverser l'ordre des éléments du tableau
 
-**_//Inverser l'ordre des éléments du tableau_**
+Array.Reverse(array);
 
-**_Array.Reverse(array);_**
+//arry=={9,7,5,3,1}
 
-**_//arry=={9,7,5,3,1}_**
+//Retourner l'index de la premiere occurrence d'un élément du tableau
 
-**_//Retourner l'index de la premiere occurrence d'un élément du tableau_**
+int index = Array.IndexOf(array, 5);
 
-**_int index = Array.IndexOf(array, 5);_**
+Console.WriteLine($"L'index de la premiere occurrence de 5 est : {index}");
 
-**_Console.WriteLine($"L'index de la premiere occurrence de 5 est : {index}");_**
-
-**_//index==2_**
+//index==2
+~~~
 
 # MultiDimensional Tables
--
 
+- Un tableau multidimensionnel est un tableau qui contient des éléments adressés par deux indices ou plus (au lieu d'un seul dans les tableaux unidimensionnels).
+![Tableau Multidimmmensionnel](../img/multidimensionnel.png)
+
+La déclaration suivante crée un tableau à deux dimensions composé de trois lignes et deux colonnes.
+
+int[,] array2D = new int[3, 2];
+
+On peut ensuite remplir le tableau en utilisant les index comme suit :
+
+**array2D[0,0] = 1;**
+
+**array2D[0,1] = 2;**
+
+**array2D[1,0] = 3;**
+
+**array2D[1,1] = 4;**
+
+**array2D[2,0] = 5;**
+
+**array2D[2,1] = 6;**
+
+Il est également possible d’initialiser le tableau lors de la création :
+
+~~~c#
+int[,] array2Da = new int[3, 2] { { 1, 2 },
+
+                                  { 3, 4 },
+
+                                  { 5, 6 }};
+
+~~~
+
+### Parcourir un tableau à plusieurs dimensions
+
+Pour parcourir un tableau à plusieurs dimensions, il suffit d’utiliser une boucle par dimension. Pour un tableau à deux dimensions, il faut donc une boucle dans une boucle.
+
+~~~c#
+for (int i = 0; i < 3; i++)
+
+{
+
+    for (int j = 0; j < 2; j++)
+
+    {
+
+        _Console.WriteLine("array2D[{0},{1}] = {2}", i, j, array2D[i, j]);
+
+    }
+
+}
+~~~
+
+La boucle **foreach** offre une façon simple de parcourir un tableau à plusieurs dimensions.
+
+~~~c#
+foreach(int i in array2D)
+
+{
+
+    Console.WriteLine(i);
+
+}
+~~~
+
+Toutefois, l’utilisation d’une boucle for imbriquée vous permet de mieux contrôler l’ordre dans lequel les éléments du tableau sont traités.
+
+### Tableaux en escalier
+
+Un tableau en escalier est un tableau dont les éléments sont des tableaux. Ce qui offre l’avantage de pouvoir définir des éléments des tableaux dont la taille pourra être différente.
+
+Dans l’exemple ci-dessous, on définit un tableau unidimensionnel qui comporte trois éléments, chacun d’eux étant un tableau unidimensionnel d’entiers.
+
+~~~c#
+int[][] jaggedArray = new int[3][];
+~~~
+
+Pour utiliser le tableau, on doit initialiser ses éléments, qui pourront être des tableaux de différentes tailles :
+
+~~~c#
+jaggedArray[0] = new int[] { 1, 3, 5, 7, 9 };
+
+jaggedArray[1] = new int[4];
+
+jaggedArray[2] = new int[2];
+
+//Afficher la valeur de chaque élément**
+
+for (int i = 0; i < jaggedArray.Length; i++)
+
+{
+
+   for (int j = 0; j < jaggedArray[i].Length; j++)
+
+    {
+
+       Console.WriteLine("jaggedArray[{0}][{1}] = {2}", i, j, jaggedArray[i][j]);
+
+    }
+
+}
+~~~
 
 # Misc
 
