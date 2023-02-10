@@ -1,5 +1,5 @@
 # TODOS
-
+- [ ] #web entete, footer, menu, body,  un ou deux liens vers une autre page in footer. Add Color. HTML AND CSS 📅 2023-02-13. 
 # Class 2
 
 - GoLive makes a server and mimics a server on localhost
@@ -29,4 +29,3 @@ When in URL: started with ?. Do not pass username and password. Pass general thi
 ### Relative URL
 -  Relative path to address depending on where user is currently.
 - **Always** when coding website.
--  
