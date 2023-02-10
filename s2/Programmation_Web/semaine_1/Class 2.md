@@ -14,4 +14,9 @@
 -  All webpage addresses are unique!
 
 ## URL Anatomy
-- 
+**Protocol**: https:// or https://
+**Domain Name**: www.servername.com
+**Port**: 80 is the http port, 443 is the port for https. *Live-Server* is usually port 5050
+**Path to Ressource**: /share/user/local/etc... It is important to give *Physical* path of file on the server.
+**Settings**:  
+**Achor**: 
