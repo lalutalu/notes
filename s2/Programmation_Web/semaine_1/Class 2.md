@@ -11,4 +11,4 @@
 - All  **Javascript** in *Script* folder. There is a subfolder called *Utilities*.
 - All **CSS** in *CSS* folder.
 -  One javascipt file per page usually..
--  
+-  All webpage addresses are unique!
