@@ -25,6 +25,7 @@ When in URL: started with ?. Do not pass username and password. Pass general thi
 
 ### Absolute URL
 - Type the entire address into the url bar.
-- 
+-  Use when borrowing library from another website.
 ### Relative URL
 -  Relative path to address depending on where user is currently.
+- 
