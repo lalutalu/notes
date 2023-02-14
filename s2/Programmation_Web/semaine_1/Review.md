@@ -1,7 +1,0 @@
-# Hello
-
-~~~ SQL
-INSERT INTO
-~~~
-
-
