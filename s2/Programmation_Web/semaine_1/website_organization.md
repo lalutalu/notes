@@ -1,5 +1,3 @@
-# TODOS
-- [x] #web entete, footer, menu, body,  un ou deux liens vers une autre page in footer. Add Color. HTML AND CSS 📅 2023-02-13.
 # Class 2
 
 - GoLive makes a server and mimics a server on localhost
@@ -14,14 +12,14 @@
 -  All webpage addresses are unique!
 
 ## URL Anatomy
-**Protocol**: https:// or https://
-**Domain Name**: www.servername.com
-**Port**: 80 is the http port, 443 is the port for https. *Live-Server* is usually port 5500
-**Path to Ressource**: /share/user/local/etc... It is important to give *Physical* path of file 
-on the server. *Root* is usually where the html files are located.
-**Settings**:  Some settings in header, some in url. 
-When in URL: started with ?. Do not pass username and password. Pass general things.
-**Achor**: Tells browser where to load on specific area of HTML webpage.
+- **Protocol**: https:// or https://
+- **Domain Name**: www.servername.com
+- **Port**: 80 is the http port, 443 is the port for https. *Live-Server* is usually port 5500
+- **Path to Ressource**: /share/user/local/etc... It is important to give *Physical* path of file on the server. 
+- *Root* is usually where the html files are located.
+- **Settings**:  Some settings in header, some in url. 
+- When in URL: started with ?. Do not pass username and password. Pass general things.
+- **Anchor**: Tells browser where to load on specific area of HTML webpage.
 
 ### Absolute URL
 - Type the entire address into the url bar.
