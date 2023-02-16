@@ -2,11 +2,11 @@
 
 A list is a **dynamic collection** that allows the storage and management of items in an organized manner.  
 
-Here are the main characteristics:
-	1. **Dynamic Size**: Unlike a table, the size can be modified.
-	2. **Indexable**: The elements of a list can be accessed by using their index.
-	3. **Generic Type**: May be declared to contain any type of variable.
-	4. **Base Functionality**: Supports operations such as adding, deleting, searching, and sorting.
+Here are the main characteristics:  
+	1. **Dynamic Size**: Unlike a table, the size can be modified.  
+	2. **Indexable**: The elements of a list can be accessed by using their index.  
+	3. **Generic Type**: May be declared to contain any type of variable.  
+	4. **Base Functionality**: Supports operations such as adding, deleting, searching, and sorting.  
 
 ## Operations on lists
 ### Creation
