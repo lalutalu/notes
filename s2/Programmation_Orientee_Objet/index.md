@@ -12,3 +12,7 @@
 - [Queues](./semaine_2/Queues.md)
 - [Stacks](./semaine_2/Stacks.md)
 
+# Week 3: Lambda Expressions
+- [Introduction](./semaine_3/introduction_lambda.md)
+- [Using Lambda Expressions on Collections](./semaine_3/using_lambda_on_collections.md)
+- [Using Lambda Expressions in their own functions](./semaine_3/using_lambda_in_own_functions.md)

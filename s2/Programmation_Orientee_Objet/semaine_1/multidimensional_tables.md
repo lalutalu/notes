@@ -1,7 +1,7 @@
 # MultiDimensional Tables
 
 - Un tableau multidimensionnel est un tableau qui contient des éléments adressés par deux indices ou plus (au lieu d'un seul dans les tableaux unidimensionnels).
-![Tableau Multidimmmensionnel](../img/multidimensionnel.png)
+![Tableau Multidimmmensionnel](./img/multidimensionnel.png)
 
 La déclaration suivante crée un tableau à deux dimensions composé de trois lignes et deux colonnes.
 
