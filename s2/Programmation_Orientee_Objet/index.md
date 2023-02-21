@@ -1,6 +1,5 @@
 # Programmation Orientée Objet
 
-
 # Week 1: Static data structures
 - [Unidimensional Tables](./semaine_1/unidimensional_tables.md)
 - [Multidimensional Tables](./semaine_1/multidimensional_tables.md)

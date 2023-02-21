@@ -1,4 +1,4 @@
-[#](#) Using Lambda Functions on Collections
+# Using Lambda Functions on Collections
 ## Elemental Functions
 | Function          | Description                                                                                                                                      |
 |-------------------|--------------------------------------------------------------------------------------------------------------------------------------------------|
