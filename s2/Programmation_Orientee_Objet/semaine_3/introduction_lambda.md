@@ -29,12 +29,3 @@ foreach (Employe emp in employesTI)
 
 - The *Lambda Expression* **e ==> e.Departement == "TI"** filters the employees list returning only employees belonging to the "TI" department.
 - **e** is for **employees**, it can be changed depending on the list. One can change the name like in a *Foreach* Loop.
-
-
-
-
-
-
-~~~python
-print("Hello World!");
-~~~
