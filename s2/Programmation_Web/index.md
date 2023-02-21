@@ -5,3 +5,7 @@
 
 # Week 2
 - [The Script Tag](./semaine_2/script_tag.md)
+- Variables were seen in the second class... let and const are only declared once. variables can be declared as many times as necessary
+
+# Week 3
+[Types](./semaine_3/Types.md)
