@@ -15,3 +15,6 @@
 - [Introduction](./semaine_3/introduction_lambda.md)
 - [Using Lambda Expressions on Collections](./semaine_3/using_lambda_on_collections.md)
 - [Using Lambda Expressions in their own functions](./semaine_3/using_lambda_in_own_functions.md)
+
+# Week 4: Heritage
+- [Introduction](./semaine_4/introduction.md)

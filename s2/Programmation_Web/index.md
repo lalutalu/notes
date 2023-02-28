@@ -9,3 +9,6 @@
 
 # Week 3
 [Types](./semaine_3/Types.md)
+
+# Week 4
+[Comparisons](./semaine_4/comparisons.md)
